@@ -68,3 +68,25 @@ body{
 .incorrect{
   background: #ff9393;
 }
+
+@media (max-width: 600px) {
+  body {
+    margin: 0;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+  input, button, select, textarea {
+    max-width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
